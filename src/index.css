@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Inter;
+
+}
+
+.container {
+  height: 650px;
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.dp {
+  height: 280px;
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.main-dark {
+  background-color: #1A1B21;
+  color: #ffff;
+}
+
+.main-white {
+  background-color: #F5F5F5;
+  color: #2B283A;
+}
+
+.main>h3 {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.prof {
+  margin: 0px;
+  color: #F3BF99;
+  font-size: 12.8px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.web {
+  margin: 0px;
+  font-size: 10.24px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px;
+}
+
+.email,
+.linked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 115px;
+  border-radius: 6px;
+}
+
+.email {
+  background-color: white;
+  color: #374151;
+  font-weight: 500;
+  font-size: 14px;
+  align-items: center;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.linked {
+  background-color: #5093E2;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  align-items: center;
+}
+
+.proso {
+  height: 12px;
+  width: 12px;
+  margin-right: 6px;
+}
+
+.proso1 {
+  height: 10px;
+  margin-right: 6px;
+  width: 12px;
+
+}
+
+.writ {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.writ>h4 {
+  margin: 0px;
+}
+
+.writ>p {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+.footer-dark {
+  background-color: #161619;
+}
+
+.footer-white {
+  background-color: #D5D4D8;
+}
+
+.social {
+  height: 20px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+}
